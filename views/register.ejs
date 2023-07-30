@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Include style.css from the server root -->
+    <title>Register Page</title>
+</head>
+<body>
+<div class="login-card-container">
+    <div class="login-card">
+        <div class="login-card-logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="login-card-header">
+            <h1>Create an Account</h1>
+            <div>Please fill in the details below</div>
+        </div>
+        <form class="login-card-form">
+            <div class="form-item">
+                <input type="text" placeholder="Enter Name" id="nameForm" autofocus required>
+            </div>
+            <div class="form-item">
+                <input type="email" placeholder="Enter Email" id="emailForm" required>
+            </div>
+            <div class="form-item">
+                <input type="password" placeholder="Enter Password" id="passwordForm" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <div class="login-card-footer">
+            Already have an account? <a href="/login">Sign In</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
